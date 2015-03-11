@@ -9,11 +9,16 @@
 /* Begin PBXBuildFile section */
 		56DC8B631AAF79BD00F38888 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 56DC8B621AAF79BD00F38888 /* main.m */; };
 		56DC8B661AAF79BD00F38888 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56DC8B651AAF79BD00F38888 /* AppDelegate.m */; };
-		56DC8B691AAF79BD00F38888 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56DC8B681AAF79BD00F38888 /* ViewController.m */; };
 		56DC8B6C1AAF79BD00F38888 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56DC8B6A1AAF79BD00F38888 /* Main.storyboard */; };
 		56DC8B6E1AAF79BD00F38888 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56DC8B6D1AAF79BD00F38888 /* Images.xcassets */; };
 		56DC8B711AAF79BD00F38888 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56DC8B6F1AAF79BD00F38888 /* LaunchScreen.xib */; };
 		56DC8B7D1AAF79BD00F38888 /* WordPlayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 56DC8B7C1AAF79BD00F38888 /* WordPlayTests.m */; };
+		56DC8B881AAF7B7E00F38888 /* EnterNameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56DC8B871AAF7B7E00F38888 /* EnterNameViewController.m */; };
+		56DC8B8B1AAF7BC500F38888 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56DC8B8A1AAF7BC500F38888 /* RootViewController.m */; };
+		56DC8B8E1AAF7D0300F38888 /* EnterAdjectiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56DC8B8D1AAF7D0300F38888 /* EnterAdjectiveViewController.m */; };
+		56DC8B911AAF7DC300F38888 /* ResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56DC8B901AAF7DC300F38888 /* ResultsViewController.m */; };
+		56DC8B941AAFAC8D00F38888 /* EnterAdverbViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56DC8B931AAFAC8D00F38888 /* EnterAdverbViewController.m */; };
+		56DC8B971AAFAE9500F38888 /* EnterConjunctionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56DC8B961AAFAE9500F38888 /* EnterConjunctionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +37,24 @@
 		56DC8B621AAF79BD00F38888 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		56DC8B641AAF79BD00F38888 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		56DC8B651AAF79BD00F38888 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		56DC8B671AAF79BD00F38888 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		56DC8B681AAF79BD00F38888 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		56DC8B6B1AAF79BD00F38888 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		56DC8B6D1AAF79BD00F38888 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		56DC8B701AAF79BD00F38888 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		56DC8B761AAF79BD00F38888 /* WordPlayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordPlayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		56DC8B7B1AAF79BD00F38888 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		56DC8B7C1AAF79BD00F38888 /* WordPlayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WordPlayTests.m; sourceTree = "<group>"; };
+		56DC8B861AAF7B7E00F38888 /* EnterNameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterNameViewController.h; sourceTree = "<group>"; };
+		56DC8B871AAF7B7E00F38888 /* EnterNameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterNameViewController.m; sourceTree = "<group>"; };
+		56DC8B891AAF7BC500F38888 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		56DC8B8A1AAF7BC500F38888 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		56DC8B8C1AAF7D0300F38888 /* EnterAdjectiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterAdjectiveViewController.h; sourceTree = "<group>"; };
+		56DC8B8D1AAF7D0300F38888 /* EnterAdjectiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterAdjectiveViewController.m; sourceTree = "<group>"; };
+		56DC8B8F1AAF7DC300F38888 /* ResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsViewController.h; sourceTree = "<group>"; };
+		56DC8B901AAF7DC300F38888 /* ResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsViewController.m; sourceTree = "<group>"; };
+		56DC8B921AAFAC8D00F38888 /* EnterAdverbViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterAdverbViewController.h; sourceTree = "<group>"; };
+		56DC8B931AAFAC8D00F38888 /* EnterAdverbViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterAdverbViewController.m; sourceTree = "<group>"; };
+		56DC8B951AAFAE9500F38888 /* EnterConjunctionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterConjunctionViewController.h; sourceTree = "<group>"; };
+		56DC8B961AAFAE9500F38888 /* EnterConjunctionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterConjunctionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +98,18 @@
 			children = (
 				56DC8B641AAF79BD00F38888 /* AppDelegate.h */,
 				56DC8B651AAF79BD00F38888 /* AppDelegate.m */,
-				56DC8B671AAF79BD00F38888 /* ViewController.h */,
-				56DC8B681AAF79BD00F38888 /* ViewController.m */,
+				56DC8B891AAF7BC500F38888 /* RootViewController.h */,
+				56DC8B8A1AAF7BC500F38888 /* RootViewController.m */,
+				56DC8B861AAF7B7E00F38888 /* EnterNameViewController.h */,
+				56DC8B871AAF7B7E00F38888 /* EnterNameViewController.m */,
+				56DC8B8C1AAF7D0300F38888 /* EnterAdjectiveViewController.h */,
+				56DC8B8D1AAF7D0300F38888 /* EnterAdjectiveViewController.m */,
+				56DC8B921AAFAC8D00F38888 /* EnterAdverbViewController.h */,
+				56DC8B931AAFAC8D00F38888 /* EnterAdverbViewController.m */,
+				56DC8B951AAFAE9500F38888 /* EnterConjunctionViewController.h */,
+				56DC8B961AAFAE9500F38888 /* EnterConjunctionViewController.m */,
+				56DC8B8F1AAF7DC300F38888 /* ResultsViewController.h */,
+				56DC8B901AAF7DC300F38888 /* ResultsViewController.m */,
 				56DC8B6A1AAF79BD00F38888 /* Main.storyboard */,
 				56DC8B6D1AAF79BD00F38888 /* Images.xcassets */,
 				56DC8B6F1AAF79BD00F38888 /* LaunchScreen.xib */,
@@ -219,8 +244,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56DC8B691AAF79BD00F38888 /* ViewController.m in Sources */,
 				56DC8B661AAF79BD00F38888 /* AppDelegate.m in Sources */,
+				56DC8B881AAF7B7E00F38888 /* EnterNameViewController.m in Sources */,
+				56DC8B8E1AAF7D0300F38888 /* EnterAdjectiveViewController.m in Sources */,
+				56DC8B941AAFAC8D00F38888 /* EnterAdverbViewController.m in Sources */,
+				56DC8B971AAFAE9500F38888 /* EnterConjunctionViewController.m in Sources */,
+				56DC8B911AAF7DC300F38888 /* ResultsViewController.m in Sources */,
+				56DC8B8B1AAF7BC500F38888 /* RootViewController.m in Sources */,
 				56DC8B631AAF79BD00F38888 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
